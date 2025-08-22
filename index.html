@@ -18,7 +18,7 @@
       justify-content: center;
       align-items: center;
       height: 100vh;
-      background: white; /* default for browser */
+      background: white;
       transition: background 0.3s ease;
     }
     body.standalone {
@@ -34,7 +34,6 @@
   <h1>Hi! This Is IOS</h1>
 
   <script>
-    // Detect iOS standalone mode
     if (window.navigator.standalone) {
       document.body.classList.add('standalone');
     }
